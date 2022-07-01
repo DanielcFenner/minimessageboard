@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+h3 {
+  margin: 0;
+}
+
+.messageboard {
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.message {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+}
+
+.tiny {
+  font-size: 0.6rem;
+}
+
+button {
+  margin-bottom: 1rem;
+}

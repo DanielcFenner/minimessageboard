@@ -1,0 +1,12 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+<a href="/form"><button>Add message</button></a>
+<div class="messageboard">
+  {{#each messages}}
+    <div class="message">
+      <h3>{{this.user}}</h3>
+      <p>{{this.text}}</p>
+      <p class="tiny">{{this.added}}</p>
+    </div>
+  {{/each}}
+</div>
