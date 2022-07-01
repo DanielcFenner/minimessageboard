@@ -1269,3 +1269,7 @@ body > footer {
 button {
   margin-bottom: 1rem;
 }
+
+h3 {
+  margin: 0;
+}
